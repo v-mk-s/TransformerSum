@@ -105,7 +105,7 @@ def main(args):
                 period=1,
                 verbose=True,
             )
-
+ 
     if args.custom_checkpoint_every_n:
         custom_checkpoint_callback = StepCheckpointCallback(
             step_interval=args.custom_checkpoint_every_n,
